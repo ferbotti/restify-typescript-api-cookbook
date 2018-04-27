@@ -10,7 +10,6 @@ export class RepositoriesController implements IController {
         this.service = new RepositoryService();
     }
 
-
     public register(server: restify.Server): void {
         server.get('/ssa', async (req, res, next) => {
             this.service.getRepositories(req.params['username'])
@@ -24,8 +23,8 @@ export class RepositoriesController implements IController {
                 })
         });
 
-        server.get('/logssa', async (req, res, next) => {
-            this.service.getLogSSA()
+        server.get('/logpf', async (req, res, next) => {
+            this.service.getLogSSAPF()
                 .then((reps) => {
                     if (reps) {
                         res.send(200, reps);

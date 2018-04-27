@@ -95,13 +95,5 @@ export interface ORIGIN {
     origin: string;
 }
 
-export class SSA_PF {
-    api:string = "DeviceManager";
-    url:string =  "/device-manager/pick-challenge";
-    endpointPath:string =  "/pick-challenge";
-    request_id:string = "D127\r\nX";
-    hostname:string =  "backend-169-170g8";
-    method:string =  "POST";
-    logMessage:string = "TKScUbF2utdbtYa63bxVpr3ewPPkhlqphUTiomlaliUnmiYlL5l1RMKlPFpPJExYnKVDGpfFLFN6mcVLyhclIxqUwVk8pUcaIyVbxxsdZat4u11rpdrLXWzf7gL1KZKk5UTiomlZOKSeWJiknlp\r\nOJE5Y2KE5Wp4kRlqphUnqiYVKaKJ1ROKiaVqWJSOamYVKaKSWWqmFROKn7TxVpr3S7WWut2sdZaN/uDL1KZKiaVqWJSOak4UZkqJpWpYlI5qXhC5aTiCZWTit+k8kbFGypPVEwq31TxhMpJxSddrLXW7WKttW4Xa611sz/4i1SmihOVqeIJlScqJpWTikllqphUnqh4Q+Wk4kTliYoT\r\nlU+qOFGZKj5J5aRiUjmpmFSmik+"
-  }
+
 
